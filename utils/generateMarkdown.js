@@ -60,38 +60,48 @@ function generateMarkdown(data) {
 
 ${data.description}
 
-## 📖 Table of Contents
-<pre>
-| [Installation](#Installation)
-| [Usage](#Usage)
-| [Contribution](#contribution)
-| [Test](#test)
-| [License](#license)
-| [Questions](#questions)
-</pre>
+##  Table of Contents
+
+* [Installation](#installation)
+
+* [Usage Information](#usage-information)
+
+* [Contribution](#contribution)
+
+* [Test](#test)
+
+* [License](#license)
+
+* [Questions](#questions)
 
 
-## ⚙️ Installation
+## Installation 
 \`\`\`
-    ${data.installation}
+${data.installation}
 \`\`\`
-## 📊 Usage
+
+## Usage Information 
 \`\`\`
 ${data.usage}
 \`\`\`
-## 💎 Contribution
+
+## Contribution 
 \`\`\`
 ${data.contribution}
 \`\`\`
-## 🗒️ Test
+
+## Test 
 \`\`\`
 ${data.test}
 \`\`\`
-## 📛 ${renderLicenseSection(data.license)}
+
+## ${renderLicenseSection(data.license)}     
+
 License documentation.
 ${renderLicenseLink(data.license)}
 
-## ❓ Questions
+## Questions  
+
 For questions about this project, please reach out to me on GitHub [@${data.github}](https://github.com/${data.github}) or via email at ${data.email}.
 `;
 
