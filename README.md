@@ -17,6 +17,7 @@ The application will ask questions that reflects the general outline of the Read
 The link below will guide you how to use the HQ ReadMe Generator
 ### Video Walkthrough
 [Video](./media/HQ%20ReadMe%20Gen.mp4)
+[Google drive video alternative](https://drive.google.com/file/d/1fIkQOAf3vf_Td0NP1xGTi5nANIsNDalS/view?pli=1)
 
 ## Screenshot
 The following images demonstrates the application's appearance and functionality:
